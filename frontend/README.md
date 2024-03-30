@@ -4,7 +4,6 @@
 
 This project implements the Front-End for a simple To-Do List web application, using the React JS library
 It includes the login page and the general UI of the app. `<br/>`
-The login authentication logic and the tasks database for each user are not  implemented yet
 
 ## Functionalities
 
