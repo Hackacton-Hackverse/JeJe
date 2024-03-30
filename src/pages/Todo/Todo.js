@@ -14,13 +14,11 @@ function Todo() {
   }, [todo]);
 
   return (
-    <div className="h-[100vh] document-container">
+    <>
       <Header />
-        <section className="todoapp">
           <TaskContainer/>
-        </section>
-      <Footer/>
-    </div>
+      {/* <Footer/> */}
+    </>
   );
 } 
 
