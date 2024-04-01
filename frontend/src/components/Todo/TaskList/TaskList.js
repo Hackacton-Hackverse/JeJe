@@ -74,8 +74,8 @@ const TaskList = ({ onDeleteList, idList }) => {
 
       {showDeleteModalList && (
         <DeleteTaskModalList
-          onDeleteList={deleteTaskList}
-          onCancel={() => setShowDeleteModalList(false)}
+          onDeleteIList={deleteTaskList}
+          onCancelList={() => setShowDeleteModalList(false)}
         />
       )}
     </div>
