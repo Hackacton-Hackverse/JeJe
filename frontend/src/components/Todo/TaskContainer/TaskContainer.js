@@ -25,9 +25,9 @@ const TaskContainer = () => {
   };
 
   // Sauvegardez les données dans localStorage à chaque modification
-  useEffect(() => {
-    localStorage.setItem('taskLists', JSON.stringify(taskLists));
-  }, [taskLists]);
+  // useEffect(() => {
+  //   localStorage.setItem('taskLists', JSON.stringify(taskLists));
+  // }, [taskLists]);
 
   return (
     <>

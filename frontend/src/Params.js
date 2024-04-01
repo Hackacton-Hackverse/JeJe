@@ -11,10 +11,6 @@ const END_POINTS = {
     change_password: SERVER_URL + "changePassword",
     delete_sessions: SERVER_URL + "deleteSessions",
     delete_account: SERVER_URL + "deleteAccount",
-    get_tunels: SERVER_URL + "getTunels",
-    desktop_download_link: SERVER_URL + "desktopDownloadLink",
-    capture_app_desktop: SERVER_URL + "capture_app_desktop",
-    image_tunel: SERVER_URL + "image_tunel",
 }
 
 export { SERVER_URL, END_POINTS, APPLICATION_NAME }

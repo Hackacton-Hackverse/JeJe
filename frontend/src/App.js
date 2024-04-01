@@ -7,7 +7,7 @@ import SignUp from "./pages/SignUp/SignUp";
 import SignIn from "./pages/SignIn/SignIn";
 function App() {
     return (
-        <div className="h-[100vh] document-container">
+        <div className="h-[100vh] document-container " style={{background:"#1400ff70"}}>
             <BrowserRouter>
                 <Routes>
                     <Route path="/" about element={<Todo />} />

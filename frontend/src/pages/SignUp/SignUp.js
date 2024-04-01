@@ -47,7 +47,7 @@ export default function SignUp() {
     useEffect(() => {
     if (success) {
     // You can replace '/login' with the actual path to your login page
-    return navigate('/Signin');;
+    return navigate('/');;
     }
     }, [success]);
 
